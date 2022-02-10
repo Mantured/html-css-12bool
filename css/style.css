@@ -7,3 +7,34 @@ body{
     height: 100vh;
     background-color: chartreuse;
 }
+
+h1{
+    padding: 5px;
+}
+
+.viola{
+    height: 5vh;
+    display: flex;
+    color:whitesmoke;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    background-color: blueviolet;
+}
+
+/* ! se voglio centrare il contenuto (testo) - lo dovrò dare al parent in questo caso alla row*/
+/* .align-center{
+    text-align: center; 
+    line-height: 42px; 
+} */
+
+/* *oppure do direttamente ai contenuti la direzione - che lo darò al div stesso*/
+
+/* .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+
