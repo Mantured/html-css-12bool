@@ -4,22 +4,12 @@ body{
 }
 
 .wrapper{
-    height: 100vh;
-    background-color: chartreuse;
+    height: 100%;
+    background-color: orangered;
 }
 
 h1{
     padding: 5px;
-}
-
-.viola{
-    height: 5vh;
-    display: flex;
-    color:whitesmoke;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid white;
-    background-color: blueviolet;
 }
 
 /* ! se voglio centrare il contenuto (testo) - lo dovrò dare al parent in questo caso alla row*/
@@ -35,6 +25,41 @@ h1{
     justify-content: center;
     align-items: center;
 } */
+
+
+.viola{
+    display: flex;
+    height: 50px; 
+    align-items: center;
+    color:whitesmoke;
+    justify-content: center;
+    border: 1px solid white;
+    background-color: blueviolet;
+}
+
+.green{
+    display:flex;
+    height: 80px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    background-color: greenyellow;
+}
+
+.margin-right{
+    border-right: 2px solid orangered;
+}
+
+.heavy-setting{
+    border: 20px solid magenta;
+}
+
+.empty{
+    height: 30px;
+}
+
+
+
 
 
 
