@@ -5,7 +5,7 @@ body{
 
 .wrapper{
     height: 100%;
-    background-color: orangered;
+    background-color: unset;
 }
 
 h1{
@@ -14,18 +14,17 @@ h1{
 
 /* ! se voglio centrare il contenuto (testo) - lo dovrò dare al parent in questo caso alla row*/
 /* .align-center{
-    text-align: center; 
     line-height: 42px; 
+    text-align: center; 
 } */
 
 /* *oppure do direttamente ai contenuti la direzione - che lo darò al div stesso*/
 
 /* .center{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 } */
-
 
 .viola{
     display: flex;
@@ -43,15 +42,21 @@ h1{
     color: black;
     align-items: center;
     justify-content: center;
-    background-color: greenyellow;
+    background-color: green;
 }
 
-.margin-right{
-    border-right: 2px solid orangered;
+/* !! Problema: perchè alle prime due colonne del nested non mi centra il testo ? a meno che non dia txt aline center */
+.txt-center{
+    text-align: center;
+}
+
+
+.border-right{
+    border-right: 2px solid blueviolet;
 }
 
 .heavy-setting{
-    border: 20px solid magenta;
+    border: 20px solid blueviolet;
 }
 
 .empty{
